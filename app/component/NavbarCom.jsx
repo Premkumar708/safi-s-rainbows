@@ -66,7 +66,7 @@ const Navbar = () => {
   ];
 
   return (
-    <header className="sticky top-1 z-40 mx-auto flex w-[90%] items-center justify-between border border-secondary bg-opacity-10 bg-gradient-to-r from-blue-950 via-teal-900 to-blue-950 p-4 text-white shadow-inner md:w-full">
+    <header className="sticky top-1 z-40 mx-auto flex w-[90%] mb-2 items-center justify-between rounded-md border border-secondary bg-opacity-10 bg-gradient-to-r from-blue-950 via-teal-900 to-blue-950 p-4 text-white shadow-inner md:w-full md:rounded-none">
       <div className="text-2xl font-bold">Logo</div>
       <div className="hidden md:block">
         <div className="container mx-auto flex items-center justify-between">
@@ -137,18 +137,18 @@ const Navbar = () => {
           >
             <div>
               <SheetHeader className="mb-4 ml-4">
-                <SheetTitle className="flex items-center">
+                <SheetTitle className="flex items-center ">
                   <Link
                     href="/"
                     className="flex items-center text-lg font-bold"
                   >
-                    <img
-                      src="/Logo.png"
+                    {/* <img
+                      src=""
                       alt="Adszoo Digital Marketing Agency Logo"
                       className="mr-2 h-6 w-6"
                       loading="lazy"
-                    />
-                    ADSZOO
+                    /> */}
+                    LOGO
                   </Link>
                 </SheetTitle>
               </SheetHeader>
@@ -167,8 +167,8 @@ const Navbar = () => {
                 ))}
               </div>
             </div>
-            <button className="group/arrow w-5/6 font-bold md:w-1/4">
-              <Link href="#contact">Talk to Us</Link>
+            <button className=" w-full font-bold ">
+              <Link href="/">LOGO</Link>
               {/* <ArrowRight className="ml-2 size-5 transition-transform group-hover/arrow:translate-x-1" /> */}
             </button>
           </SheetContent>
