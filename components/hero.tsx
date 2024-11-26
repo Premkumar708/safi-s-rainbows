@@ -24,18 +24,18 @@ export const Hero = () => {
   }, [titleNumber, titles]);
 
   return (
-    <div className="w-full py-20 lg:py-40">
-      <div className="container mx-auto">
+    <div className="w-full px-4 py-20 lg:py-40">
+      <div className="container mx-auto ">
         <div className="grid grid-cols-1 items-center gap-8 md:grid-cols-2">
           <div className="flex flex-col gap-4">
             <div className="mt-10">
               <Badge variant="outline">New Collections!</Badge>
             </div>
             <div className="flex flex-col gap-4">
-              <h1 className="font-regular text-left text-5xl tracking-tighter md:text-7xl">
+              <h1 className="font-regular text-left text-3xl tracking-tighter md:text-7xl">
                 Discover Timeless
               </h1>
-              <h1 className="font-regular text-left text-5xl tracking-tighter md:text-7xl">
+              <h1 className="font-regular text-left text-3xl tracking-tighter md:text-7xl">
                 {titles.map((title, index) => (
                   <motion.span
                     key={index}
@@ -58,15 +58,15 @@ export const Hero = () => {
                   </motion.span>
                 ))}
               </h1>
-              <p className="mt-20 max-w-md text-left text-xl leading-relaxed tracking-tight text-muted-foreground">
+              <p className="mt-10 max-w-md text-left text-xl leading-relaxed tracking-tight text-muted-foreground md:mt-20">
                 Celebrate individuality with curated designs that define your
                 style. Step into a world of bespoke fashion, where tradition
                 meets modernity. Our boutique brings you handpicked collections
                 crafted with love and care for every occasion.
               </p>
             </div>
-            <div className="flex flex-row gap-4">
-              <Button size="lg" className="gap-4" variant="outline">
+            <div className="flex flex-row items-center justify-center gap-4">
+              <Button size="lg" className="gap-4 " variant="outline">
                 Call Us Now <PhoneCall className="size-4" />
               </Button>
               <Button size="lg" className="gap-4">

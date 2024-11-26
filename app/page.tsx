@@ -10,7 +10,7 @@ import { Services } from "@/components/Services";
 import { AboutUs } from "@/components/Aboutus";
 export default function Home() {
   return (
-    <>
+    <div className="overflow-x-hidden align-middle">
       <Header />
       {/* <NavbarCom /> */}
       {/* <Carousel /> */}
@@ -21,6 +21,6 @@ export default function Home() {
       <Whats />
       <FAQ />
       <Footer />
-    </>
+    </div>
   );
 }

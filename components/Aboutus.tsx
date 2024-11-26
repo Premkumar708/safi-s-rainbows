@@ -2,7 +2,7 @@
 
 export const AboutUs = () => (
   <div className="w-full py-20">
-    <div className="container mx-auto px-4">
+    <div className="container mx-auto px-4 ">
       <div className="flex flex-col items-center gap-8 lg:flex-row lg:gap-12">
         {/* Image Section */}
         <div className="w-full max-w-lg flex-1 lg:max-w-none">
@@ -14,7 +14,7 @@ export const AboutUs = () => (
         </div>
 
         {/* Content Section */}
-        <div className="flex-1 text-left">
+        <div className="flex-1 text-justify">
           <h2 className="text-3xl font-bold tracking-tight text-primary md:text-5xl">
             About Us
           </h2>

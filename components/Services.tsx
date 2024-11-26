@@ -2,8 +2,8 @@ import { Check } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 
 export const Services = () => (
-  <div className="w-full bg-gradient-to-b from-indigo-50 via-white to-purple-50 py-20 lg:py-40">
-    <div className="container mx-auto">
+  <div className="w-full bg-gradient-to-b from-indigo-50 via-white to-purple-50 py-14 lg:py-20">
+    <div className="container mx-auto px-4 text-justify">
       <div className="flex flex-col items-start gap-8">
         <div>
           <Badge className="rounded-md bg-primary px-3 py-1 text-sm text-white">
@@ -11,10 +11,10 @@ export const Services = () => (
           </Badge>
         </div>
         <div className="flex flex-col gap-4">
-          <h2 className="text-4xl font-bold tracking-tight text-primary md:text-5xl">
+          <h2 className="text-center text-4xl font-bold tracking-tight text-primary md:text-5xl">
             A Splash of Colors, A Touch of Elegance
           </h2>
-          <p className="text-lg leading-relaxed text-muted-foreground lg:max-w-2xl">
+          <p className="text-muted-foregroundt text-lg leading-relaxed lg:max-w-2xl">
             At Safia&apos;s Rainbows and Vibgyors, we bring you the finest
             fabrics and designs, carefully selected to inspire creativity and
             elevate your wardrobe. From vibrant hues to elegant textures, every

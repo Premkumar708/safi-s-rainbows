@@ -53,9 +53,9 @@ export const Case = () => {
 
   return (
     <div className="w-full py-20 ">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-4">
         <div className="grid grid-cols-5 items-center gap-10">
-          <h3 className="text-left text-2xl font-bold tracking-tighter lg:max-w-xl">
+          <h3 className="text-left text-xl font-bold tracking-tighter md:text-2xl lg:max-w-xl">
             Our Collections
           </h3>
           <div className="relative col-span-4 w-full">
@@ -64,8 +64,8 @@ export const Case = () => {
               <CarouselContent>
                 {collections.map((item, index) => (
                   <CarouselItem className="basis-1/4 lg:basis-1/6" key={index}>
-                    <div className="flex aspect-square items-center justify-center rounded-md bg-muted p-2 font-semibold">
-                      <span className="text-sm">{item}</span>
+                    <div className="flex aspect-square items-center justify-center rounded-md bg-muted bg-gradient-to-b from-indigo-100 via-purple-50 to-pink-200 p-2 text-center font-semibold text-black ">
+                      <span className="text-sm md:text-lg">{item}</span>
                     </div>
                   </CarouselItem>
                 ))}

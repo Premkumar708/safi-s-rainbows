@@ -10,7 +10,7 @@ import { Button } from "@/components/ui/button";
 
 export const FAQ = () => (
   <div className="w-full bg-gradient-to-b from-indigo-100 via-purple-50 to-white py-20 lg:py-40">
-    <div className="container mx-auto">
+    <div className="container mx-auto px-4">
       <div className="flex flex-col gap-10">
         <div className="flex flex-col items-center justify-center gap-4 text-center">
           <Badge variant="outline">FAQs</Badge>
