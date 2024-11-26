@@ -1,12 +1,14 @@
 "use client";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
+import Whatsapp from "@/components/Whatsapp";
 // import { Badge } from "@/components/ui/badge";
 import { motion } from "framer-motion";
 
 export default function AboutPage() {
   return (
     <>
+      <Whatsapp />
       <Header />
       <div className="w-full py-20 lg:py-40">
         <div className="container mx-auto">

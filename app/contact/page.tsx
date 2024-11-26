@@ -22,6 +22,7 @@ import {
 } from "@/components/ui/select";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
+import Whatsapp from "@/components/Whatsapp";
 
 export default function ContactPage() {
   const [contactType, setContactType] = useState<string>("Student");
@@ -29,6 +30,7 @@ export default function ContactPage() {
 
   return (
     <>
+      <Whatsapp />
       <Header />
       <div className="w-full py-16 lg:py-32">
         <div className="container mx-auto max-w-7xl">

@@ -27,7 +27,7 @@ export const FAQ = () => (
           </div>
           <div>
             <Button className="gap-4" variant="outline">
-              Have questions? Let&apos;s connect{" "}
+              Have questions? Let&apos;s connect
               <PhoneCall className="size-4" />
             </Button>
           </div>
