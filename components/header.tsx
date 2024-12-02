@@ -61,7 +61,7 @@ export const Header = () => {
 
   return (
     <header className="fixed left-0 top-0 z-40 w-full bg-background shadow-md">
-      <div className="container relative mx-auto flex min-h-20 flex-row items-center gap-4 lg:grid lg:grid-cols-3">
+      <div className="container relative mx-auto flex min-h-20 flex-row items-center justify-between gap-4 px-5 lg:grid lg:grid-cols-3">
         {/* Navigation Menu for Large Screens */}
         <div className="hidden flex-row items-center justify-start gap-4 lg:flex">
           <NavigationMenu className="flex items-start justify-start">
@@ -116,7 +116,7 @@ export const Header = () => {
         </div>
 
         {/* Action Buttons */}
-        <div className="flex w-full justify-end gap-4">
+        <div className=" hidden w-full justify-end gap-4 lg:flex ">
           <Button variant="outline" className="flex items-center gap-2" asChild>
             <a href={url} target="_blank">
               <Phone className="size-4" />
@@ -127,7 +127,7 @@ export const Header = () => {
         </div>
 
         {/* Mobile Navigation */}
-        <div className="flex w-12 shrink items-end justify-end lg:hidden">
+        <div className="flex w-12 px-7 lg:hidden">
           <Button variant="ghost" onClick={() => setOpen(!isOpen)}>
             {isOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
           </Button>

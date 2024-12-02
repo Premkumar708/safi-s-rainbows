@@ -67,10 +67,10 @@ export const Footer = () => {
 
   return (
     <div className="w-full bg-white py-20 text-gray-800 lg:py-40">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-4 ">
         <div className="grid items-center gap-10 lg:grid-cols-2">
           <div className="flex flex-col items-start gap-8">
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-2 ">
               <h2 className="max-w-xl text-left text-3xl font-bold tracking-tighter md:text-5xl">
                 Safia&apos;s RNV
               </h2>
