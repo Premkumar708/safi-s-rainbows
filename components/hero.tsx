@@ -65,7 +65,7 @@ export const Hero = () => {
                 crafted with love and care for every occasion.
               </p>
             </div>
-            <div className="flex flex-row items-center justify-center gap-4">
+            <div className="flex flex-row  gap-4">
               <Button size="lg" className="gap-4 " variant="outline">
                 Call Us Now <PhoneCall className="size-4" />
               </Button>
