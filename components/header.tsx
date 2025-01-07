@@ -110,8 +110,8 @@ export const Header = () => {
         </div>
 
         {/* Logo Section */}
-        <div className="flex items-center justify-center gap-2 lg:justify-center">
-          <img src="/assets/SSRNV.png" alt="" className="h-16 w-16"></img>
+        <div className="ml-16 flex items-center justify-center gap-2 lg:justify-center">
+          <img src="/assets/SSRNV.png" alt="" className="size-16"></img>
           <p className="text-xl font-bold">Safia&apos;s RNV</p>
         </div>
 
@@ -129,7 +129,7 @@ export const Header = () => {
         {/* Mobile Navigation */}
         <div className="flex w-12 px-7 lg:hidden">
           <Button variant="ghost" onClick={() => setOpen(!isOpen)}>
-            {isOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+            {isOpen ? <X className="size-5" /> : <Menu className="size-5" />}
           </Button>
           {isOpen && (
             <div className="absolute right-0 top-20 w-full bg-background p-4 shadow-lg">
