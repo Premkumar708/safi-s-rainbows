@@ -2,6 +2,7 @@
 import { Header } from "@/components/header";
 import { Card } from "@/components/ui/card";
 import { Footer } from "@/components/footer";
+import Whatsapp from "@/components/Whatsapp";
 
 const NewArrivals = () => {
   const items = [
@@ -46,6 +47,7 @@ const NewArrivals = () => {
   return (
     <>
       <Header />
+      <div className="bg-gradient-to-b from-indigo-100 via-purple-50 to-pink-100">
       <div className="container mx-auto mt-16 py-10">
         <h1 className="mb-8 text-3xl font-bold">New Arrivals</h1>
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -57,6 +59,8 @@ const NewArrivals = () => {
           ))}
         </div>
       </div>
+      </div>
+      <Whatsapp/>
       <Footer />
     </>
   );

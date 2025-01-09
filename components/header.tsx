@@ -110,7 +110,7 @@ export const Header = () => {
         </div>
 
         {/* Logo Section */}
-        <div className="ml-16 flex items-center justify-center gap-2 lg:justify-center">
+        <div className="md:ml-14 flex items-center justify-center gap-2 lg:justify-center">
           <img src="/assets/SSRNV.png" alt="" className="size-16"></img>
           <p className="text-xl font-bold">Safia&apos;s RNV</p>
         </div>
