@@ -4,7 +4,7 @@ import { Header } from "@/components/header";
 import { Card } from "@/components/ui/card";
 import { Footer } from "@/components/footer";
 
-const CasualChic = () => {
+const Accessories = () => {
   const items = [
     {
       title: "Item 1",
@@ -47,8 +47,8 @@ const CasualChic = () => {
   return (
     <>
       <Header />
-      <div className="container mx-auto py-10">
-        <h1 className="mb-8 text-3xl font-bold">Casual Chic</h1>
+      <div className="mt-16 container mx-auto py-10">
+        <h1 className="mb-8 text-3xl font-bold">Accessories</h1>
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           {items.map((item, index) => (
             <Card key={index} imageSrc={item.imageSrc} imageAlt={item.imageAlt}>
@@ -63,4 +63,4 @@ const CasualChic = () => {
   );
 };
 
-export default CasualChic;
+export default Accessories;

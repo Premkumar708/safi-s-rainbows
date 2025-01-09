@@ -25,19 +25,19 @@ export const Header = () => {
       items: [
         {
           title: "New Arrivals",
-          href: "/collections/new-arrivals",
+          href: "/pages/newArrivals",
         },
         {
           title: "Festive Wear",
-          href: "/collections/festive-wear",
+          href: "/pages/festiveWare",
         },
         {
           title: "Casual Chic",
-          href: "/collections/casual-chic",
+          href: "/pages/casual-chic",
         },
         {
           title: "Accessories",
-          href: "/collections/accessories",
+          href: "/pages/accessories",
         },
       ],
     },

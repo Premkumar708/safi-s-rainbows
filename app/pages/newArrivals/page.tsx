@@ -1,10 +1,9 @@
 "use client";
-
 import { Header } from "@/components/header";
 import { Card } from "@/components/ui/card";
 import { Footer } from "@/components/footer";
 
-const FestiveWear = () => {
+const NewArrivals = () => {
   const items = [
     {
       title: "Item 1",
@@ -47,8 +46,8 @@ const FestiveWear = () => {
   return (
     <>
       <Header />
-      <div className="container mx-auto py-10">
-        <h1 className="mb-8 text-3xl font-bold">Festive Wear</h1>
+      <div className="container mx-auto mt-16 py-10">
+        <h1 className="mb-8 text-3xl font-bold">New Arrivals</h1>
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           {items.map((item, index) => (
             <Card key={index} imageSrc={item.imageSrc} imageAlt={item.imageAlt}>
@@ -63,4 +62,4 @@ const FestiveWear = () => {
   );
 };
 
-export default FestiveWear;
+export default NewArrivals;
